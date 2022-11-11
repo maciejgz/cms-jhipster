@@ -1,0 +1,24 @@
+{
+  "cmsJhipsterApp": {
+    "author": {
+      "home": {
+        "title": "Author",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Author",
+        "createOrEditLabel": "Dodaj lub edytuj: Author",
+        "notFound": "No Authors found"
+      },
+      "created": "Utworzono nowy obiekt typu Author z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Author z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Author z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Author {{ id }}?"
+      },
+      "detail": {
+        "title": "Author"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}
