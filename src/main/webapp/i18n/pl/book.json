@@ -1,0 +1,27 @@
+{
+  "cmsJhipsterApp": {
+    "book": {
+      "home": {
+        "title": "Book",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Book",
+        "createOrEditLabel": "Dodaj lub edytuj: Book",
+        "notFound": "No Books found"
+      },
+      "created": "Utworzono nowy obiekt typu Book z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Book z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Book z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Book {{ id }}?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "title": "Title",
+      "quicklook": "Quicklook",
+      "bookFile": "Book File",
+      "releaseDate": "Release Date"
+    }
+  }
+}
