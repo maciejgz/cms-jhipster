@@ -16,8 +16,8 @@ services:
       - 127.0.0.1:8080:8080
   cms_jhipster-postgresql:
     image: postgres:14.5
-    # volumes:
-    #   - ~/volumes/jhipster/cms_jhipster/postgresql/:/var/lib/postgresql/data/
+    volumes:
+      - /var/lib/docker/volumes/cms_jhipster/postgresql/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=cms_jhipster
       - POSTGRES_PASSWORD=
